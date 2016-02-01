@@ -1,0 +1,23 @@
+body {
+	background-color: #eae6db;
+}
+
+p {
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.subform {
+	font-family: Tahoma;
+	text-align: center;
+}
+
+.subforminput[type="text"]:focus, .subformtextarea:focus {
+	background-color: white;
+	color: black;
+}
+
+.subforminput[type="submit"]:hover {
+	background: #999;
+}
