@@ -3,6 +3,12 @@ body{
     font-size: small;
 }
 
+h1{
+    margin: 0 0 10px;
+    text-align: center;
+    font-size: medium;
+}
+
 .clearfix:after{
     content: "";
     display: table;
@@ -32,7 +38,6 @@ body{
     margin: 0 auto;
     padding: 20px;
     background-color: #e9e5da;
-    text-align: center;
 }
 
 label{

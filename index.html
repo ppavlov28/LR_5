@@ -11,6 +11,7 @@
 
 <div class="userform">
 	<form>
+        <h1>ОСНОВНЫЕ ДАННЫЕ:</h1>
         <div class="row clearfix">
             <div class="left">
                 <label for="nickname">Псевдоним:</label>
@@ -93,10 +94,67 @@
                 <input type="date" name="birthday" id="birth-day">
             </div>
         </div>
+        <div class="row clearfix">
+            <div class="left">
+                <label for="id-city">Место проживания:</label>
+            </div>
+            <div class="right">
+                <input type="text" name="city" id="id-city" placeholder="Город">
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="left">
+                <label for="id-country">Страна проживания:</label>
+            </div>
+            <div class="right">
+                <input type="text" name="country" id="id-country"
+                       placeholder="Страна">
+            </div>
+        </div>
 
+        <br>
 
-        <label for="city">Место проживания:</label>
-        <input type="text" id="city">
+        <h1>ДОПОЛНИТЕЛЬНО:</h1>
+
+        <div class="row clearfix">
+            <div class="left">
+                <label for="id-avatar">Аватар:</label>
+            </div>
+            <div class="right">
+                <input type="file" name="avatar" id="id-avatar"
+                       placeholder="Выберите файл">
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="left">
+                <label for="id-foto">Фото:</label>
+            </div>
+            <div class="right">
+                <input type="file" name="foto" id="id-foto"
+                       placeholder="Выберите файл">
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="left">
+                <label for="id-message-sign">Подпись к сообщениям:</label>
+            </div>
+            <div class="right">
+                <textarea name="message-sign" id="id-message-sign" rows="5"
+                          cols="30"
+                          placeholder="Введите текст для пописи сообщений">
+                </textarea>
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="left">
+                <label for="">Сделать ссылкой:</label>
+            </div>
+            <div class="right">
+                <input type="text" name="link" id="id-link"
+                       placeholder="Ссылка">
+            </div>
+        </div>
+
     </form>
 </div>
 
