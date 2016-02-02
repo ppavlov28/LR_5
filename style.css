@@ -40,12 +40,17 @@ h1{
     background-color: #e9e5da;
 }
 
+.button{
+    margin: 10px 20px;
+    width: 80px;
+}
+
 label{
     padding-right: 8px;
 }
 
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 520px){
     .left{
         float: none;
         width: 100%;
