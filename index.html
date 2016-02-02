@@ -5,17 +5,102 @@
 	<title>Forms</title>
 <!--	<link rel="stylesheet" href="stylereset.css"/> -->
 	<link rel="stylesheet" 	href="style.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
 <div class="userform">
 	<form>
-        <label for="nickname">Псевдоним:</label>
-		<input type="text" id="nickname">
-        <label for="userpass">Пароль:</label>
-        <input type="text" id="userpass">
-	</form>
+        <div class="row clearfix">
+            <div class="left">
+                <label for="nickname">Псевдоним:</label>
+            </div>
+            <div class="right">
+                <input type="text" name="nick-name" id="nickname"
+                       placeholder="Псевдоним">
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="left">
+                <label for="pass">Пароль:</label>
+            </div>
+            <div class="right">
+                <input type="text" name="password" id="pass"
+                       placeholder="Введите пароль">
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="left">
+                <label for="reenterpass">Повтор пароля:</label>
+            </div>
+            <div class="right">
+                <input type="text" name="reenter-pass" id="reenterpass"
+                       placeholder="Повторите пароль">
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row clearfix">
+            <div class="left">
+                <label for="secondname">Фамилия:</label>
+            </div>
+            <div class="right">
+                <input type="text" name="second-name" id="secondname"
+                       placeholder="Фамилия">
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="left">
+                <label for="firstname">Имя:</label>
+            </div>
+            <div class="right">
+                <input type="text" name="first-name" id="firstname"
+                       placeholder="Имя">
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="left">
+                <label for="midname">Отчество:</label>
+            </div>
+            <div class="right">
+                <input type="text" name="mid-name" id="midname"
+                       placeholder="Отчество">
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row clearfix">
+            <div class="left">
+                <label>Пол:</label>
+            </div>
+            <div class="right">
+                <input type="radio" name="sex" id="sex-m" value="male">
+                <label for="sex-m">Мужской</label>
+                <input type="radio" name="sex" id="sex-f" value="female">
+                <label for="sex-f">Женский</label>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row clearfix">
+            <div class="left">
+                <label for="birth-day">Дата рождения:</label>
+            </div>
+            <div class="right">
+                <input type="date" name="birthday" id="birth-day">
+            </div>
+        </div>
+
+
+        <label for="city">Место проживания:</label>
+        <input type="text" id="city">
+    </form>
 </div>
+
+
 
 <!--
 <form class="subform">
