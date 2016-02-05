@@ -1,0 +1,13 @@
+body
+{
+    font-family:"Times New Roman";
+    background-color:#eae6db;
+    width:800px;
+    margin:auto;
+}
+label{
+    display:inline-block;
+    text-align:right;
+    width:400px;
+    vertical-align: top;
+}
