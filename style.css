@@ -9,28 +9,33 @@ h1{
     font-size: medium;
 }
 
+/* Удерживаем блоки от выпадения */
 .clearfix:after{
     content: "";
     display: table;
     clear: both;
 }
 
+/* Задаем высоту строки с элементами формы */
 .row{
     line-height: 30px;
 }
 
+/* Делаем ячейку в строке слева, для элементов типа <label> */
 .left{
     width: 50%;
     float: left;
     text-align: right;
 }
 
+/* Делаем ячейку в строке слева, для элементов типа <input> */
 .right{
     width: 50%;
     float: right;
     text-align: left;
 }
 
+/* Блок для формы*/
 .userform{
     max-width: 600px;
     margin: 0 auto;
@@ -38,9 +43,10 @@ h1{
     background-color: #e9e5da;
 }
 
+/* */
 .button{
     margin: 10px 20px;
-    width: 80px;
+    width: 50%;
 }
 
 label{
@@ -57,6 +63,9 @@ label{
     .right{
         float: none;
         width: 100%;
+        text-align: left;
+    }
+    h1{
         text-align: left;
     }
 }
