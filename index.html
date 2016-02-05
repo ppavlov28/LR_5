@@ -9,18 +9,24 @@
 </head>
 <body>
 
+<!-- Блок в котором содержится форма -->
 <div class="userform">
-	<form>
+    <!-- Собственно форма -->
+	<form method="get">
         <h1>ОСНОВНЫЕ ДАННЫЕ:</h1>
+        <!-- Строка с элементами формы -->
         <div class="row clearfix">
+            <!-- Первая (левая) ячейка для <label> -->
             <div class="left">
                 <label for="nickname">Псевдоним:</label>
             </div>
+            <!-- Вторая (правая) ячейка для <input> -->
             <div class="right">
                 <input type="text" name="nick-name" id="nickname"
                        placeholder="Псевдоним">
             </div>
         </div>
+        <!-- Конец первой строки. Ниже все аналогично. -->
         <div class="row clearfix">
             <div class="left">
                 <label for="pass">Пароль:</label>

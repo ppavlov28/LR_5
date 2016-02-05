@@ -35,7 +35,7 @@ h1{
     text-align: left;
 }
 
-/* Блок для формы*/
+/* Блок для оформления формы*/
 .userform{
     max-width: 600px;
     margin: 0 auto;
@@ -43,17 +43,18 @@ h1{
     background-color: #e9e5da;
 }
 
-/* */
+/* Оформление кнопок */
 .button{
     margin: 10px 20px;
     width: 50%;
 }
 
+/* Небольшой отступ для <label> - что бы не сливались с <input> */
 label{
     padding-right: 8px;
 }
 
-
+/* Перестраиваем форму при изменении размера менее 540px. */
 @media screen and (max-width: 540px){
     .left{
         float: none;
